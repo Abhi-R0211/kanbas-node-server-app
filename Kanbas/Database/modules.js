@@ -113,4 +113,4 @@ export default[
       "description": "Overview of spacecraft systems and subsystems engineering.",
       "course": "RS103"
     }
-  ]
+  ];

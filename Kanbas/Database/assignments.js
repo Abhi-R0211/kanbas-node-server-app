@@ -80,4 +80,4 @@ export default[
     "dueDate": "2024-05-27",
     "availableDate": "2024-05-20"
   }
-]
+];

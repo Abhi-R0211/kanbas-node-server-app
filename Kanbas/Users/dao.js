@@ -1,7 +1,7 @@
 import db from "../Database/index.js";
 let { users } = db;
 export const createUser = (user) => {
- const newUser = { ...user, _id: Date.now() };
+ const newUser = { ...user, _id: Date.now().toString() };
  users = [...users, newUser];
  return newUser;
 };
@@ -14,6 +14,3 @@ export const updateUser = (userId, user) => (users = users.map((u) => (u._id ===
 
 
 export const deleteUser = (userId) => (users = users.filter((u) => u._id !== userId));
-
-
-
