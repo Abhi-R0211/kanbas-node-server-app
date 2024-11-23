@@ -1,6 +1,6 @@
 import express from 'express';
 import Lab5 from "./Lab5/index.js";
-import Hello from "./hello.js"
+import Hello from "./Hello.js"
 import cors from "cors";
 import UserRoutes from "./Kanbas/Users/routes.js";
 import session from "express-session";
