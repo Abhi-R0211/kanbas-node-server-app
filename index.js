@@ -13,7 +13,7 @@ import EnrollmentRoutes from './Kanbas/Enrollments/routes.js';
 const app = express()
 app.use(cors({
     credentials: true,
-    origin: "https://a5--kanbas-react-app-abhishek-raghuraman.netlify.app/#/Labs/Lab5" || "http://localhost:3000",
+    origin: "https://a5--kanbas-react-app-abhishek-raghuraman.netlify.app" || "http://localhost:3000",
 })); 
 const sessionOptions = {
   secret: process.env.SESSION_SECRET || "kanbas",
