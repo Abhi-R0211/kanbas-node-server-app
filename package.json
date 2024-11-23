@@ -24,9 +24,9 @@
   "author": "Srimansi Ramesh",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SrimansiRamesh/kanbas-react-web-app/issues"
+    "url": "https://github.com/Abhi-R0211/kanbas-react-web-app/issues"
   },
-  "homepage": "https://github.com/SrimansiRamesh/kanbas-react-web-app#readme",
+  "homepage": "https://github.com/Abhi-R0211/kanbas-react-web-app#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
