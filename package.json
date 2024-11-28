@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SrimansiRamesh/kanbas-react-web-app.git"
+    "url": "git+https://github.com/Abhi-R0211/kanbas-react-web-app.git"
   },
   "keywords": [
     "Node",
@@ -21,7 +21,7 @@
     "Development",
     "CS5610"
   ],
-  "author": "Srimansi Ramesh",
+  "author": "Abhishek Raghuraman",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Abhi-R0211/kanbas-react-web-app/issues"
