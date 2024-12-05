@@ -9,11 +9,14 @@ import "dotenv/config";
 import ModuleRoutes from './Kanbas/Modules/routes.js';
 import AssignmentRoutes from './Kanbas/Assignments/routes.js';
 import EnrollmentRoutes from './Kanbas/Enrollments/routes.js';
-//test comment
+import mongoose from "mongoose";
+
+const CONNECTION_STRING = "mongodb+srv://abhishekraghuraman0211:AhuHOD6apBVMfCim@cluster0.e5wzb.mongodb.net/"
+mongoose.connect(CONNECTION_STRING);
 const app = express()
 app.use(cors({
     credentials: true,
-    origin: "https://a5--kanbas-react-app-abhishek-raghuraman.netlify.app" || "http://localhost:3000",
+    origin: "https://localhost:3000",
 })); 
 const sessionOptions = {
   secret: process.env.SESSION_SECRET || "kanbas",
